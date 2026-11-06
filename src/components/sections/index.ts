@@ -1,0 +1,16 @@
+export { SiteHeader } from './site-header';
+export { HeroSection } from './hero-section';
+export { OurWorkSection } from './our-work-section';
+export { ServicesSection } from './services-section';
+export { ClientTestimonialsSection } from './client-testimonials-section';
+export { OurResultsSection } from './our-results-section';
+export { QuoteSection } from './quote-section';
+export { ProposalSection } from './proposal-section';
+export { OurGallerySection } from './our-gallery-section';
+export { ApproachSection } from './approach-section';
+export { FaqSection } from './faq-section';
+export { PlanStrategySection } from './plan-strategy-section';
+export { ContactSection } from './contact-section';
+export { SiteFooter } from './site-footer';
+export { AboutUsSection } from './about-us-section';
+export { UspSection } from './usp-section';
