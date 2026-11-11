@@ -185,24 +185,24 @@ export const heroSlides = [
     poster: "https://assets.mixkit.co/videos/40601/40601-thumb-360-0.jpg",
     credit: "Happy newlyweds posing",
   },
-  {
-    heading: "So You Can Be There for Every Moment.",
-    eyebrow: "While we take care of the details, you get to be part of the memories that last a lifetime.",
-    emphasis: "In Bloom",
-    caption: "Every detail, thoughtfully chosen",
-    video: "https://assets.mixkit.co/videos/5224/5224-720.mp4",
-    poster: "https://assets.mixkit.co/videos/5224/5224-thumb-360-0.jpg",
-    credit: "A decorated wedding table",
-  },
-  {
-    heading: "MADE TO BE REMEMBERED.",
-    eyebrow: "Behind every remarkable occasion is a team working in sync to create an experience that stays with you long after the event ends.",
-    emphasis: "In Love",
-    caption: "Together, in the moment",
-    video: "https://assets.mixkit.co/videos/40593/40593-720.mp4",
-    poster: "https://assets.mixkit.co/videos/40593/40593-thumb-360-0.jpg",
-    credit: "Newlyweds smiling",
-  },
+  // {
+  //   heading: "So You Can Be There for Every Moment.",
+  //   eyebrow: "While we take care of the details, you get to be part of the memories that last a lifetime.",
+  //   emphasis: "In Bloom",
+  //   caption: "Every detail, thoughtfully chosen",
+  //   video: "https://assets.mixkit.co/videos/5224/5224-720.mp4",
+  //   poster: "https://assets.mixkit.co/videos/5224/5224-thumb-360-0.jpg",
+  //   credit: "A decorated wedding table",
+  // },
+  // {
+  //   heading: "MADE TO BE REMEMBERED.",
+  //   eyebrow: "Behind every remarkable occasion is a team working in sync to create an experience that stays with you long after the event ends.",
+  //   emphasis: "In Love",
+  //   caption: "Together, in the moment",
+  //   video: "https://assets.mixkit.co/videos/40593/40593-720.mp4",
+  //   poster: "https://assets.mixkit.co/videos/40593/40593-thumb-360-0.jpg",
+  //   credit: "Newlyweds smiling",
+  // },
 ];
 
 export const workVideos = [
