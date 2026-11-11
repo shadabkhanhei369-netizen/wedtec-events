@@ -173,7 +173,7 @@ export const heroSlides = [
     emphasis: "Weddings",
     caption: "Where your story begins",
     video: "/banner/banner1.mp4",
-    poster: "https://assets.mixkit.co/videos/40584/40584-thumb-360-0.jpg",
+    // poster: "https://assets.mixkit.co/videos/40584/40584-thumb-360-0.jpg",
     credit: "Newlyweds walking through a garden",
   },
   {
@@ -182,7 +182,7 @@ export const heroSlides = [
     emphasis: "For Two",
     caption: "A moment just for two",
     video: "/banner/banner2.mp4",
-    poster: "https://assets.mixkit.co/videos/40601/40601-thumb-360-0.jpg",
+    // poster: "https://assets.mixkit.co/videos/40601/40601-thumb-360-0.jpg",
     credit: "Happy newlyweds posing",
   },
   // {
