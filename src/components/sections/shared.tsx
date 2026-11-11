@@ -166,14 +166,24 @@ export const faqs = [
   },
 ];
 // 8050614813
-export const heroSlides = [
+type HeroSlide = {
+  heading: string;
+  eyebrow: string;
+  emphasis: string;
+  caption: string;
+  video: string;
+  poster?: string;
+  credit: string;
+};
+
+export const heroSlides: HeroSlide[] = [
   {
     heading: "Every Beautiful Celebration Begins With a Dream.",
     eyebrow: "Every couple imagines their day differently. We begin by listening to the story you want to tell.",
     emphasis: "Weddings",
     caption: "Where your story begins",
     video: "/banner/banner1.mp4",
-    poster: "https://assets.mixkit.co/videos/40584/40584-thumb-360-0.jpg",
+    // poster: "https://assets.mixkit.co/videos/40584/40584-thumb-360-0.jpg",
     credit: "Newlyweds walking through a garden",
   },
   {
@@ -182,27 +192,27 @@ export const heroSlides = [
     emphasis: "For Two",
     caption: "A moment just for two",
     video: "/banner/banner2.mp4",
-    poster: "https://assets.mixkit.co/videos/40601/40601-thumb-360-0.jpg",
+    // poster: "https://assets.mixkit.co/videos/40601/40601-thumb-360-0.jpg",
     credit: "Happy newlyweds posing",
   },
-  {
-    heading: "So You Can Be There for Every Moment.",
-    eyebrow: "While we take care of the details, you get to be part of the memories that last a lifetime.",
-    emphasis: "In Bloom",
-    caption: "Every detail, thoughtfully chosen",
-    video: "https://assets.mixkit.co/videos/5224/5224-720.mp4",
-    poster: "https://assets.mixkit.co/videos/5224/5224-thumb-360-0.jpg",
-    credit: "A decorated wedding table",
-  },
-  {
-    heading: "MADE TO BE REMEMBERED.",
-    eyebrow: "Behind every remarkable occasion is a team working in sync to create an experience that stays with you long after the event ends.",
-    emphasis: "In Love",
-    caption: "Together, in the moment",
-    video: "https://assets.mixkit.co/videos/40593/40593-720.mp4",
-    poster: "https://assets.mixkit.co/videos/40593/40593-thumb-360-0.jpg",
-    credit: "Newlyweds smiling",
-  },
+  // {
+  //   heading: "So You Can Be There for Every Moment.",
+  //   eyebrow: "While we take care of the details, you get to be part of the memories that last a lifetime.",
+  //   emphasis: "In Bloom",
+  //   caption: "Every detail, thoughtfully chosen",
+  //   video: "https://assets.mixkit.co/videos/5224/5224-720.mp4",
+  //   // poster: "https://assets.mixkit.co/videos/5224/5224-thumb-360-0.jpg",
+  //   credit: "A decorated wedding table",
+  // },
+  // {
+  //   heading: "MADE TO BE REMEMBERED.",
+  //   eyebrow: "Behind every remarkable occasion is a team working in sync to create an experience that stays with you long after the event ends.",
+  //   emphasis: "In Love",
+  //   caption: "Together, in the moment",
+  //   video: "https://assets.mixkit.co/videos/40593/40593-720.mp4",
+  //   // poster: "https://assets.mixkit.co/videos/40593/40593-thumb-360-0.jpg",
+  //   credit: "Newlyweds smiling",
+  // },
 ];
 
 export const workVideos = [
