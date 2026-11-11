@@ -201,7 +201,7 @@ export const heroSlides: HeroSlide[] = [
   //   emphasis: "In Bloom",
   //   caption: "Every detail, thoughtfully chosen",
   //   video: "https://assets.mixkit.co/videos/5224/5224-720.mp4",
-  //   // poster: "https://assets.mixkit.co/videos/5224/5224-thumb-360-0.jpg",
+  //   poster: "https://assets.mixkit.co/videos/5224/5224-thumb-360-0.jpg",
   //   credit: "A decorated wedding table",
   // },
   // {
@@ -210,7 +210,7 @@ export const heroSlides: HeroSlide[] = [
   //   emphasis: "In Love",
   //   caption: "Together, in the moment",
   //   video: "https://assets.mixkit.co/videos/40593/40593-720.mp4",
-  //   // poster: "https://assets.mixkit.co/videos/40593/40593-thumb-360-0.jpg",
+  //   poster: "https://assets.mixkit.co/videos/40593/40593-thumb-360-0.jpg",
   //   credit: "Newlyweds smiling",
   // },
 ];
