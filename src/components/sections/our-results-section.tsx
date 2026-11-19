@@ -63,7 +63,7 @@ export function OurResultsSection() {
   }));
 
   return (
-    <section className="overflow-hidden bg-[#ffecd1] py-[80px] md:py-[80px]" id="results">
+    <section className="overflow-hidden bg-[#ffecd1] py-[80px] md:py-[80px] max-[760px]:pt-[40px]" id="results">
       <motion.div
         className="mx-auto w-[min(1440px,90%)] min-[761px]:max-[1000px]:w-[88%]"
         initial="hidden"

@@ -9,23 +9,34 @@ export function SiteHeader() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <header className="absolute fixed z-10 top-0 left-0 flex w-full h-[94px] items-center justify-between border-b border-[#e3ba6f]/25 bg-[#090908] px-[7.3%] text-white shadow-[0_8px_24px_rgba(9,9,8,0.16)] max-[760px]:top-[14px] max-[760px]:right-[14px] max-[760px]:left-[14px] max-[760px]:w-auto max-[760px]:h-[78px] max-[760px]:px-[6%] min-[761px]:max-[900px]:h-[78px] min-[761px]:max-[900px]:px-[6%] min-[761px]:max-[1000px]:px-[5%] ">
+    <header className="absolute fixed z-10 top-0 left-0 flex w-full h-[94px] items-center justify-between border-b border-[#e3ba6f]/25 bg-[#090908] px-[7.3%] text-white shadow-[0_8px_24px_rgba(9,9,8,0.16)] max-[760px]:h-[78px] max-[760px]:px-[6%] min-[761px]:max-[900px]:h-[78px] min-[761px]:max-[900px]:px-[6%] min-[761px]:max-[1000px]:px-[5%] ">
       <a aria-label="WEDTEC EVENTS home" className="inline-flex flex-col items-center gap-[5px] h-auto " href="#home" onClick={closeMenu}>
         <BrandLogo className="h-auto w-[240px] max-sm:w-[158px]" />
       </a>
+    
       <button
         aria-expanded={menuOpen}
         aria-label={menuOpen ? "Close menu" : "Open menu"}
-        className="hidden relative z-[12] w-[42px] h-[42px] cursor-pointer flex-col items-center justify-center gap-[6px] border border-white/60 bg-transparent text-white max-[760px]:flex min-[761px]:max-[900px]:flex"
+        className="hidden relative z-[12] w-[42px] h-[42px] cursor-pointer flex-col items-center justify-center gap-[6px] bg-transparent text-white max-[760px]:flex min-[761px]:max-[900px]:flex"
         onClick={() => setMenuOpen(!menuOpen)}
       >
+        
+        <span className="h-px w-[15px] bg-current" />
         <span className="h-px w-[15px] bg-current" />
         <span className="h-px w-[15px] bg-current" />
       </button>
       <nav
-        className={`flex items-center gap-[clamp(24px,3.2vw,52px)] text-[13px] tracking-[0.06em] max-[760px]:absolute max-[760px]:top-0 max-[760px]:right-0 max-[760px]:left-0 max-[760px]:hidden max-[760px]:items-stretch max-[760px]:gap-0 max-[760px]:bg-[#090908] max-[760px]:px-[8%] max-[760px]:pt-[90px] max-[760px]:pb-[30px] max-[760px]:text-[13px] min-[761px]:max-[900px]:absolute min-[761px]:max-[900px]:top-0 min-[761px]:max-[900px]:right-0 min-[761px]:max-[900px]:left-0 min-[761px]:max-[900px]:hidden min-[761px]:max-[900px]:items-stretch min-[761px]:max-[900px]:gap-0 min-[761px]:max-[900px]:bg-[#090908] min-[761px]:max-[900px]:px-[8%] min-[761px]:max-[900px]:pt-[90px] min-[761px]:max-[900px]:pb-[30px] min-[761px]:max-[900px]:text-[13px] ${menuOpen ? "!flex flex-col" : ""}`}
+        className={`flex items-center gap-[clamp(24px,3.2vw,52px)] text-[13px] tracking-[0.06em] max-[760px]:absolute max-[760px]:top-0 max-[760px]:right-0 max-[760px]:left-0 max-[760px]:flex-col max-[760px]:items-stretch max-[760px]:gap-0 max-[760px]:overflow-hidden max-[760px]:bg-[#090908] max-[760px]:px-[8%] max-[760px]:pt-[90px] max-[760px]:pb-[30px] max-[760px]:text-[13px] max-[760px]:transition-all max-[760px]:duration-300 max-[760px]:ease-in-out min-[761px]:max-[900px]:absolute min-[761px]:max-[900px]:top-0 min-[761px]:max-[900px]:right-0 min-[761px]:max-[900px]:left-0 min-[761px]:max-[900px]:flex-col min-[761px]:max-[900px]:items-stretch min-[761px]:max-[900px]:gap-0 min-[761px]:max-[900px]:overflow-hidden min-[761px]:max-[900px]:bg-[#090908] min-[761px]:max-[900px]:px-[8%] min-[761px]:max-[900px]:pt-[90px] min-[761px]:max-[900px]:pb-[30px] min-[761px]:max-[900px]:text-[13px] min-[761px]:max-[900px]:transition-all min-[761px]:max-[900px]:duration-300 min-[761px]:max-[900px]:ease-in-out ${menuOpen ? "max-[760px]:max-h-[32rem] max-[760px]:translate-y-0 max-[760px]:opacity-100 max-[760px]:visible max-[760px]:pointer-events-auto min-[761px]:max-[900px]:max-h-[32rem] min-[761px]:max-[900px]:translate-y-0 min-[761px]:max-[900px]:opacity-100 min-[761px]:max-[900px]:visible min-[761px]:max-[900px]:pointer-events-auto" : "max-[760px]:max-h-0 max-[760px]:-translate-y-2 max-[760px]:opacity-0 max-[760px]:invisible max-[760px]:pointer-events-none min-[761px]:max-[900px]:max-h-0 min-[761px]:max-[900px]:-translate-y-2 min-[761px]:max-[900px]:opacity-0 min-[761px]:max-[900px]:invisible min-[761px]:max-[900px]:pointer-events-none"}`}
         aria-label="Main navigation"
       >
+        <a
+          aria-label="WEDTEC EVENTS home"
+          className="absolute top-[20px] left-[6%] hidden w-[158px] max-[760px]:block"
+          href="#home"
+          onClick={closeMenu}
+        >
+          <BrandLogo className="h-auto w-full" />
+        </a>
         <a className="transition-opacity hover:opacity-[0.68] max-[760px]:border-t max-[760px]:border-white/15 max-[760px]:py-4 min-[761px]:max-[900px]:border-t min-[761px]:max-[900px]:border-white/15 min-[761px]:max-[900px]:py-4" href="#about" onClick={closeMenu}>About us</a>
         <a className="transition-opacity hover:opacity-[0.68] max-[760px]:border-t max-[760px]:border-white/15 max-[760px]:py-4 min-[761px]:max-[900px]:border-t min-[761px]:max-[900px]:border-white/15 min-[761px]:max-[900px]:py-4" href="#services" onClick={closeMenu}>Services</a>
         <a className="transition-opacity hover:opacity-[0.68] max-[760px]:border-t max-[760px]:border-white/15 max-[760px]:py-4 min-[761px]:max-[900px]:border-t min-[761px]:max-[900px]:border-white/15 min-[761px]:max-[900px]:py-4" href="#work" onClick={closeMenu}>Our work</a>

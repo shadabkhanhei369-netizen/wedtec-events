@@ -45,7 +45,7 @@ export function FloatingContactButtons() {
       <div aria-hidden="true" className="h-[calc(48px+env(safe-area-inset-bottom))] min-[761px]:hidden" />
       <nav
         aria-label="Quick contact"
-        className="fixed right-6 bottom-6 z-50 flex flex-col gap-3 max-[760px]:right-0 max-[760px]:bottom-0 max-[760px]:left-0 max-[760px]:grid max-[760px]:w-full max-[760px]:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] max-[760px]:gap-0 max-[760px]:bg-transparent max-[760px]:pb-[env(safe-area-inset-bottom)]"
+        className="fixed right-6 bottom-6 z-50 flex flex-col gap-3 max-[760px]:right-0 max-[760px]:bottom-0 max-[760px]:left-0 max-[760px]:grid max-[760px]:w-full max-[760px]:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] max-[760px]:gap-0 max-[760px]:bg-transparent max-[760px]:pb-0"
       >
         {contactActions.map((action) => (
           <a

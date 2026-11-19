@@ -20,7 +20,7 @@ export function HeroSection() {
 
   return (
     <section className="relative h-svh min-h-[760px] max-h-[1020px] overflow-hidden bg-[#3c000c] text-white max-[760px]:h-auto max-[760px]:min-h-0 max-[760px]:max-h-none max-[760px]:overflow-hidden max-[760px]:bg-[#ffecd1] max-[760px]:text-[#3c000c] max-[760px]:px-[14px] max-[760px]:pt-[14px] max-[760px]:pb-[28px]" id="home">
-      <div className="hero-media absolute inset-0 overflow-hidden bg-[#3c000c] max-[760px]:top-[14px] max-[760px]:right-[14px] max-[760px]:left-[14px] max-[760px]:h-[var(--hero-mobile-media-height)] max-[760px]:rounded-xl" aria-hidden="true">
+      <div className="hero-media absolute inset-0 overflow-hidden bg-[#3c000c] max-[760px]:top-[14px] max-[760px]:right-0 max-[760px]:left-0 max-[760px]:h-[var(--hero-mobile-media-height)] max-[760px]:rounded-xl" aria-hidden="true">
         <video
           key={slide.video}
           className="h-full w-full object-cover max-[760px]:[object-position:center_43%]"
@@ -36,8 +36,8 @@ export function HeroSection() {
           <source src={slide.video} type="video/mp4" />
         </video>
       </div>
-      <div className="hero-shade absolute inset-0 max-[760px]:top-[14px] max-[760px]:right-[14px] max-[760px]:left-[14px] max-[760px]:h-[var(--hero-mobile-media-height)] max-[760px]:rounded-xl" />
-      <div className="absolute z-[1] top-1/2 right-[5%] flex -translate-y-1/2 flex-col items-center gap-[10px] max-[760px]:top-[calc(14px_+_var(--hero-mobile-media-height)*0.5)] max-[760px]:right-[28px]" role="group" aria-label="Choose a featured wedding video">
+      <div className="hero-shade absolute inset-0 max-[760px]:top-[14px] max-[760px]:right-0 max-[760px]:left-0 max-[760px]:h-[var(--hero-mobile-media-height)] max-[760px]:rounded-xl" />
+      <div className="absolute z-[1] top-1/2 right-[5%] flex -translate-y-1/2 flex-col items-center gap-[10px] max-[760px]:top-[calc(14px_+_var(--hero-mobile-media-height)*0.5)] max-[760px]:right-[14px]" role="group" aria-label="Choose a featured wedding video">
           {heroSlides.map((item, index) => (
             <button
               aria-label={`Show video ${index + 1}: ${item.caption}`}
